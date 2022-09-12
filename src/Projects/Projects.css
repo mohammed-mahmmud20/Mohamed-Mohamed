@@ -46,7 +46,37 @@ body {
     width: 100%;
 
 }
-@media screen and (min-width:400px) and (max-width:600px) {
+/* ***********  Media  *********** */
+@media screen and (min-width:200px) and (max-width:400px) {
+    .mySwiper-Swiperrr1 {
+        width: 70%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 55%;
+        top: 25%;
+        margin-left: -150px;
+        margin-top: -150px;
+    }
+    .mySwiper-Swiperrr2 {
+        width: 70%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 55%;
+        top: 69%;
+        margin-left: -150px;
+        margin-top: -150px;
+    }
+    .swiper-slideee__ {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 100px;
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width:401px) and (max-width:600px) {
     .mySwiper-Swiperrr1 {
         width: 70%;
         padding-top: 50px;
