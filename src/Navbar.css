@@ -49,7 +49,65 @@ nav a:hover::before, nav .active:hover::before {
     visibility: visible;
 }
 /* ***********  Media  *********** */
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:200px) and (max-width:400px) {
+    nav{
+        position: fixed;
+        top: 20px;
+        left: 30%;
+        transform: translate(-50%,-50%);
+        z-index: 3;
+        padding: 6px;
+        animation: nav 3s ease infinite both;
+        width: 100%;
+    }
+    @keyframes nav {
+        from{
+            background-image: linear-gradient(to right, #0078AA, #F6F6F6);
+        }
+        to{
+            background-image: linear-gradient(to right, #F6F6F6, #0078AA);
+        }
+    }
+    nav a, nav a:focus {
+        text-decoration: none;
+        color: darkgrey;
+        font-weight: bold;
+        position: relative;
+        transition: 0.7s ease;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 30px 12px;
+        padding: 3px;
+        color: darkgrey;
+        font-weight: bold;
+        position: relative;
+        transition: 0.7s ease;
+    }
+    nav .active, nav a:hover{
+        border-bottom: 4px solid  #0078AA;
+        border-top: 4px solid  #0078AA;
+        background-color: white;
+        color: darkgray;
+    }
+    nav a:hover::before, nav .active:hover::before {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background-color: #0061c9;
+        color: #0078AA;
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -4px;
+        top: 80%;
+        transition: 1s;
+        transform: scale(1.1);
+        text-decoration: none;
+        animation: nava 3s ease infinite both;
+        visibility: visible;
+    }
+}
+@media screen and (min-width:401px) and (max-width:600px) {
     nav{
         position: fixed;
         top: 30px;
