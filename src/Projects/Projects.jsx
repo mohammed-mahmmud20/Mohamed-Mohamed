@@ -87,9 +87,9 @@ const Projects = () => {
                 className="mySwiper-Swiperrr2 animate__animated animate__backInLeft animate__delay"
             >
                 <SwiperSlide className="swiper-slideee__">
-                    <h3>mohamed</h3>
-                    <a target={"_blank"} href="">Live Demo</a>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> 
+                    <h3>E-commerce with React</h3>
+                    <a target={"_blank"} href="https://ecommerce-projeckt.vercel.app/">Live Demo</a>
+                    <img src="images\other\ecommerce.PNG" height={"100%"} />
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slideee__">
                     <h3>todo-list with JS</h3>

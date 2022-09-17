@@ -105,6 +105,13 @@
         animation: form 4s ease infinite both;
         transition: 1s ease;
     }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 30px;
+    }
     .social-icons h1{
         font-size: 19px;
     }
@@ -150,50 +157,11 @@
         animation: form 4s ease infinite both;
         transition: 1s ease;
     }
-    .social-icons h1{
-        font-size: 23px;
-    }
-    .social-icons address h2{
-        font-size: 18px;
-    }
-    .social-icons .a1 {
-        background: #1a75d6;
-    }
-    .social-icons .a2 {
-        background: black;
-    }
-    .social-icons .a3 {
-        background: red;
-    }
-    .social-icons .a4 {
-        background: #4294eb;
-    }
-    .social-icons .a5 {
-        background-image: linear-gradient(to top, #fcc45e, #ff3bde);
-    }
-    .social-icons .a6 {
-        background: black;
-    }
-}
-@media screen and (min-width:400px) and (max-width:600px) {
-    .sec-form{
+    .social-icons{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-    }
-    .form{
-        width: 350px;
-        height: 390px;
-        margin: 50px 10px;
-        display: flex;
-        flex-direction: column;
-        box-shadow: 1px 1px 2px #ffffff;
-        border-radius: 5px;
-        color: white;
-        position: relative;
-        animation: form 4s ease infinite both;
-        transition: 1s ease;
     }
     .social-icons h1{
         font-size: 23px;
@@ -239,6 +207,12 @@
         position: relative;
         animation: form 4s ease infinite both;
         transition: 1s ease;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
     }
     .social-icons h1{
         font-size: 23px;
