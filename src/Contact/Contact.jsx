@@ -30,12 +30,12 @@ const Contact = () => {
                 <div className="social-icons animate__animated animate__backInRight animate__delay">
                     <h1 style={{fontSize:"40px", marginBotton:"20px"}}>Contact Me</h1>
                     <address>
-                        <a className='a1' href="https://www.linkedin.com/in/mohamed-mohamed-9075a9246/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a className='a1' href="https://www.linkedin.com/in/mohamed-mohamed-202840250/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a className='a2' href="https://github.com/mohammed-mahmmud20" target="_blank"><i class="fab fa-github"></i></a>
                         <a className='a3' href="https://www.youtube.com/channel/UCBcjHQXSQJYGxtjy3BNtQFA" target="_blank"><i class="fab fa-youtube"></i></a>
                         <a className='a4' href="https://www.facebook.com/profile.php?id=100057260414811" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a className='a5' href="https://www.instagram.com/front_endmohamed" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a className='a6' href="https://www.tiktok.com/@front__end__mohamed" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a className='a5' href="https://www.instagram.com/mode_el_code/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a className='a6' href="https://www.tiktok.com/@mode_el_code" target="_blank"><i class="fab fa-tiktok"></i></a>
                         <h3>Email:mohammedmahmmud20@gmail.com</h3>
                         <h3>whatsapp or phone:01021228645</h3>
                         <h4>what are you waiting? Let's work together</h4>

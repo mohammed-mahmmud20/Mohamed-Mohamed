@@ -75,7 +75,7 @@ nav a:hover::before, nav .active:hover::before {
         position: relative;
         transition: 0.7s ease;
         text-decoration: none;
-        font-size: 8px;
+        font-size: 12px;
         margin: 30px 12px;
         padding: 3px;
         color: darkgrey;
@@ -191,8 +191,8 @@ nav a:hover::before, nav .active:hover::before {
         position: relative;
         transition: 0.7s ease;
         text-decoration: none;
-        font-size: 17px;
-        margin: 70px 45px;
+        font-size: 14px;
+        margin: 70px 35px;
         padding: 5px;
         color: darkgrey;
         font-weight: bold;
