@@ -50,7 +50,45 @@ body {
     margin-right: 80px;
 }
 /* ***********  Media  *********** */
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:200px) and (max-width:400px) {
+    .mySwiperr-Swiper1{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 59%;
+        top: 36%;
+        margin-left: -150px;
+        margin-top: -150px;
+        transition: 1s ease;
+    }
+    .mySwiperr-Swiper2{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 59%;
+        top: 78%;
+        margin-left: -150px;
+        margin-top: -150px;
+        transition: 1s ease;
+    }
+    .__swiperrr-slide1{
+        background-position: center;
+        background-size: cover;
+    }
+    .__swiperrr-slide2{
+        background-position: center;
+        background-size: cover;
+    }
+    .__swiperrr-slide1 img {
+        width: 100%;
+        height: 200px;
+    }
+    .__swiperrr-slide2 img {
+        width: 100%;
+        height: 200px;
+    }
+}
+@media screen and (min-width:401px) and (max-width:600px) {
     .mySwiperr-Swiper1{
         width: 200px;
         height: 200px;
