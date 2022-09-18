@@ -59,12 +59,13 @@
 .social-icons a {
     color: #fff;
     font-size: 1.7em;
-    margin-right: 30px;
-    background: darkgray;
+    margin: 30px;
+    background: rgba(255,255,255,0.1);
     width: 30px;
     height: 30px;
     border-radius: 20px;
     padding: 4px 7px;
+    margin: 10px;
 }
 .social-icons .a1:hover {
     background: #1a75d6;

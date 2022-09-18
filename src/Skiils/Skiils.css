@@ -30,8 +30,8 @@ body {
 }
 .mySwiperr-Swiper1{
     position: absolute;
-    left: 50%;
-    /* left: 75%; */
+    /* left: 50%; */
+    left: 75%;
     top: 50%;
     width: 300px;
     height: 300px;
@@ -50,7 +50,7 @@ body {
     margin-right: 80px;
 }
 /* ***********  Media  *********** */
-/* @media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:400px) and (max-width:600px) {
     .mySwiperr-Swiper1{
         width: 200px;
         height: 200px;
@@ -125,4 +125,4 @@ body {
         width: 100%;
         height: 230px;
     }
-} */
+}

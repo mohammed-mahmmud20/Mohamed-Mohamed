@@ -32,11 +32,6 @@ const Projects = () => {
                 className="mySwiper-Swiperrr1 animate__animated animate__backInRight animate__delay"
             >
                 <SwiperSlide className="swiper-slideee__">
-                    <h3>mohamed</h3>
-                    <a target={"_blank"} href="">Live Demo</a>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> 
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
                     <h3>notes-app with React</h3>
                     <a target={"_blank"} href="https://notes-app-eta-fawn.vercel.app/">Live Demo</a>
                     <img src="images\other\notes-app.PNG" height={"100%"} />
@@ -45,24 +40,6 @@ const Projects = () => {
                     <h3>memory-game with JS</h3>
                     <a target={"_blank"} href="https://memory-game-tau-rust.vercel.app/">Live Demo</a>
                     <img src="images\other\memory-game.PNG" height={"100%"} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slideee__">
                     <h3>netflex with html&css</h3>
@@ -100,21 +77,6 @@ const Projects = () => {
                     <h3>X-O-game with JS</h3>
                     <a target={"_blank"} href="https://x-o-game-nu.vercel.app/">Live Demo</a>
                     <img src="images\other\x-o-game.PNG" height={"100%"} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slideee__">
-                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slideee__">
                     <h3>food with html&css</h3>
