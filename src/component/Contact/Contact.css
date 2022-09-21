@@ -1,0 +1,242 @@
+/* .title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 80px;
+} */
+.sec-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* color:#3AB4F2; */
+}
+/* **************form************** */
+.form{
+    width: 450px;
+    margin: 100px 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px #ffffff;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    animation: form 4s ease infinite both;
+    transition: 1s ease;
+}
+@keyframes form {
+    from{
+        top: 10px;
+        box-shadow: 1px 1px 2px #003369;
+    } to{
+        top: 20px;
+        box-shadow: 1px 1px 2px #323232;
+    }
+}
+.form label{
+    color: #ffffff;
+    font-size: 20px;
+}
+.form input , textarea{
+    padding: 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+.form input::focus , textarea::focus{
+    outline: none;
+    background-color: rgba(0,0,0,0.261);
+}
+/* ***********Contact Me*********** */
+.social-icons{
+    color: white;
+    margin-top: 10px;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    margin: 30px;
+    background: rgba(255,255,255,0.1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 4px 7px;
+    margin: 10px;
+}
+.social-icons .a1:hover {
+    background: #1a75d6;
+}
+.social-icons .a2:hover {
+    background: black;
+}
+.social-icons .a3:hover {
+    background: red;
+}
+.social-icons .a4:hover {
+    background: #4294eb;
+}
+.social-icons .a5:hover {
+    background-image: linear-gradient(to top, #fcc45e, #ff3bde);
+}
+.social-icons .a6:hover {
+    background: black;
+}
+/* ***********  Media  *********** */
+@media screen and (min-width:200px) and (max-width:400px) {
+    .sec-form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form{
+        width: 300px;
+        height: 340px;
+        margin: 40px 6px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 2px #ffffff;
+        border-radius: 5px;
+        color: white;
+        position: relative;
+        animation: form 4s ease infinite both;
+        transition: 1s ease;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .social-icons h1{
+        font-size: 19px;
+    }
+    .social-icons address h2{
+        font-size: 14px;
+    }
+    .social-icons .a1 {
+        background: #1a75d6;
+    }
+    .social-icons .a2 {
+        background: black;
+    }
+    .social-icons .a3 {
+        background: red;
+    }
+    .social-icons .a4 {
+        background: #4294eb;
+    }
+    .social-icons .a5 {
+        background-image: linear-gradient(to top, #fcc45e, #ff3bde);
+    }
+    .social-icons .a6 {
+        background: black;
+    }
+}
+@media screen and (min-width:401px) and (max-width:600px) {
+    .sec-form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form{
+        width: 350px;
+        height: 390px;
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 2px #ffffff;
+        border-radius: 5px;
+        color: white;
+        position: relative;
+        animation: form 4s ease infinite both;
+        transition: 1s ease;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .social-icons h1{
+        font-size: 23px;
+    }
+    .social-icons address h2{
+        font-size: 18px;
+    }
+    .social-icons .a1 {
+        background: #1a75d6;
+    }
+    .social-icons .a2 {
+        background: black;
+    }
+    .social-icons .a3 {
+        background: red;
+    }
+    .social-icons .a4 {
+        background: #4294eb;
+    }
+    .social-icons .a5 {
+        background-image: linear-gradient(to top, #fcc45e, #ff3bde);
+    }
+    .social-icons .a6 {
+        background: black;
+    }
+}
+@media screen and (min-width:601px) and (max-width:880px) {
+    .sec-form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form{
+        width: 450px;
+        height: 390px;
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 2px #ffffff;
+        border-radius: 5px;
+        color: white;
+        position: relative;
+        animation: form 4s ease infinite both;
+        transition: 1s ease;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .social-icons h1{
+        font-size: 23px;
+    }
+    .social-icons address h2{
+        font-size: 18px;
+    }
+    .social-icons .a1 {
+        background: #1a75d6;
+    }
+    .social-icons .a2 {
+        background: black;
+    }
+    .social-icons .a3 {
+        background: red;
+    }
+    .social-icons .a4 {
+        background: #4294eb;
+    }
+    .social-icons .a5 {
+        background-image: linear-gradient(to top, #fcc45e, #ff3bde);
+    }
+    .social-icons .a6 {
+        background: black;
+    }
+}
