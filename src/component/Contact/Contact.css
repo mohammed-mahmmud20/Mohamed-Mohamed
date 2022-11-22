@@ -86,7 +86,7 @@
     background: black;
 }
 /* ***********  Media  *********** */
-@media screen and (min-width:200px) and (max-width:400px) {
+@media screen and (min-width:150px) and (max-width:400px) {
     .sec-form{
         display: flex;
         justify-content: space-evenly;

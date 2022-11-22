@@ -31,7 +31,7 @@ const Projects = () => {
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper-Swiperrr1 animate__animated animate__backInRight animate__delay"
             >
-                                <SwiperSlide className="swiper-slideee__">
+                <SwiperSlide className="swiper-slideee__">
                     <h3>E-commerce with React</h3>
                     <a target={"_blank"} href="https://ecommerce-projeckt.vercel.app/">Live Demo</a>
                     <img src="images\other\ecommerce.PNG" height={"100%"} />

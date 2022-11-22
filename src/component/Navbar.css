@@ -1,3 +1,6 @@
+/* #3AB4F2 
+#0078AA
+*/
 *{
     margin: 0%;
     padding: 0%;
@@ -10,10 +13,10 @@ body {
 }
 @keyframes mohamed {
     from{
-        background-image: linear-gradient(to right, #3AB4F2, #A6D1E6);
+        background-image: linear-gradient(to right, #000, #A6D1E6);
     }
     to{
-        background-image: linear-gradient(to right, #A6D1E6, #3AB4F2);
+        background-image: linear-gradient(to right, #A6D1E6, #000);
     }
 }
 nav{
@@ -27,10 +30,10 @@ nav{
 }
 @keyframes nav {
     from{
-        background-image: linear-gradient(to right, #0078AA, #F6F6F6);
+        background-image: linear-gradient(to right, #000, #F6F6F6);
     }
     to{
-        background-image: linear-gradient(to right, #F6F6F6, #0078AA);
+        background-image: linear-gradient(to right, #F6F6F6, #000);
     }
 }
 nav a, nav a:focus {
@@ -38,7 +41,7 @@ nav a, nav a:focus {
     font-size: 16px;
     margin: 100px 30px;
     padding: 10px;
-    color: #0078AA;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     position: relative;
     transition: 0.7s ease;
@@ -47,7 +50,7 @@ nav .active, nav a:hover{
     border-bottom: 4px solid  #0078AA;
     border-top: 4px solid  #0078AA;
     background-color: white;
-    color: darkgray;
+    color: rgb(0, 0, 0);
 }
 nav a:hover::before, nav .active:hover::before {
     content: "";
@@ -72,7 +75,7 @@ nav a:hover::before, nav .active:hover::before {
     display: inline-block;
     width: 60px;
     height: 34px;
-    margin-top: 60px;
+    margin-top: 5 5px;
   }
   
   /* Hide default HTML checkbox */
@@ -93,6 +96,7 @@ nav a:hover::before, nav .active:hover::before {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
+    background-image: linear-gradient(to right, #F6F6F6, #0078AA);
   }
   
   .slider:before {
@@ -106,9 +110,8 @@ nav a:hover::before, nav .active:hover::before {
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
   input:checked + .slider {
-    background-color: #000000;
+    background-image: linear-gradient(to right, #212e63, #0E131F);
   }
   
   input:focus + .slider {
@@ -133,8 +136,27 @@ nav a:hover::before, nav .active:hover::before {
     display: flex;
     justify-content: center;
   }
+  .dark-mode{
+    height: 100vh;
+    animation: naveee 3s ease infinite both;
+    /* background-image: linear-gradient(to right, #212e63, #0E131F); */
+
+}
+  .dark-mode nav{
+    color: white;
+    animation: naveee 3s ease infinite both;
+
+}
+@keyframes naveee {
+    from{
+        background-image: linear-gradient(to right, #212e63, #0E131F);
+    }
+    to{
+        background-image: linear-gradient(to right, #0E131F, #212e63);
+    }
+}
 /* ***********  Media  *********** */
-@media screen and (min-width:200px) and (max-width:400px) {
+@media screen and (min-width:150px) and (max-width:400px) {
     nav{
         position: fixed;
         top: 20px;
